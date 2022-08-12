@@ -22,4 +22,4 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 
 ## DOCKER CONTAINER ENVIRONMENT (CONTAINER)
 -- Loose Isolation - Processes/running instances of one container cannot affect processes of another
--- We can set limits on resource allocation such as memory,CPU 
+-- We can set limits on resource allocation such as memory,CPU . This helps to control amount of access to host kernels resources(Memory, CPU)
