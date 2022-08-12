@@ -3,3 +3,6 @@
 
 ## KERNEL
 -- A piece of software at the core of the operating system and controls intercation between all software and the CPU.
+
+## CPU
+-- Core circuitry that executes all instructions
