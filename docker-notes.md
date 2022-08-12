@@ -34,3 +34,4 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 
 ---
 ## WHY USE CONTAINERS?
+- Portability to multiple operating system environments - Docker ensures that the application can run the same way regardless of the operating system environment it is running on.
