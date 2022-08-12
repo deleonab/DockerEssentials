@@ -21,5 +21,5 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 
 
 ## DOCKER CONTAINER ENVIRONMENT (CONTAINER)
--- Loose Isolation - Processes of one container cannot affect processes of another
+-- Loose Isolation - Processes/running instances of one container cannot affect processes of another
 
