@@ -8,3 +8,5 @@
 ## CPU
 -- Core circuitry that executes all instructions
 -- Docker runs on top of an original machine's kernell making it the HOST MACHINE
+
+## DOCKER ENGINE
