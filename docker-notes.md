@@ -11,6 +11,6 @@
 
 ## DOCKER ENGINE
 -- The Docker engine concists of the following
-- The server
+- The server also called Docker Daemon
 - The API
 - CLI
