@@ -13,7 +13,7 @@
 -- The Docker engine concists of the following
 - The server also called Docker Daemon
 - The API
-- 
+- CLI
 
 The user through the CLI talks to the Daemon who uses the blueprint to construct containers on top of a host machines kernel
 
