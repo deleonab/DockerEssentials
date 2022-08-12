@@ -10,3 +10,7 @@
 -- Docker runs on top of an original machine's kernell making it the HOST MACHINE
 
 ## DOCKER ENGINE
+-- The Docker engine concists of the following
+- The server
+- The API
+- CLI
