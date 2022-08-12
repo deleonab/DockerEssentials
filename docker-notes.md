@@ -25,6 +25,8 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 
 -- We can set limits on resource allocation such as memory,CPU . This helps to control amount of the host kernels resources(Memory, CPU) they can consume.
 
--- We run application specific code. We can run an application with all its dependencies in that isolated environment. This means that there is no need to install any of the dependencies on the host machine.
+-- We run application specific code. We can run an application with all its dependencies in that isolated environment. 
+- This means that there is no need to install any of the dependencies on the host machine.
+- The container has it's own file system.
 
 
