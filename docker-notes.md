@@ -1,8 +1,10 @@
 ## DOCKER
 -- A Docker container is a loosely isolated environment running withing a host machine's kernel allowing us to run application specific code.
 
+
 ## KERNEL
 -- A piece of software at the core of the operating system and controls intercation between all software and the CPU.
 
 ## CPU
 -- Core circuitry that executes all instructions
+-- Docker runs on top of an original machine's kernell making it the HOST MACHINE
