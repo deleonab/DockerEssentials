@@ -18,3 +18,8 @@
 The user through the CLI talks to the Daemon who uses the blueprint to construct containers on top of a host machines kernel
 
 ![Docker Engine Diagram](./images-notes/docker-engine.JPG)
+
+
+## DOCKER CONTAINER ENVIRONMENT (CONTAINER)
+-- Loose Isolation - Processes of one container cannot affect processes of another
+
