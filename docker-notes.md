@@ -62,6 +62,8 @@ Ensures that engineers have access to the same code, code libraries and dependen
 - environment variables
 - configuration files ( resource allocation, networking, security etc)
 - anything else the application needs to run in isolation
+- The instructions are collected within an executable package whichbis the image itself
+
 
 
 
