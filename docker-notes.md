@@ -112,6 +112,17 @@ docker attach foo
 ```
 ### Now we can access the containers file system  root@0c9fdb1459b2:/# ls
 
+```
+root@0c9fdb1459b2:/# ls
+```
+
 ![container file system](./images-notes/container-file-system.JPG)
 
+### Let's install ping program on our container file system. We shall fr=irst update then install iputils-ping
 
+```
+apt-get update
+```
+```
+apt-get install iputils-ping
+```
