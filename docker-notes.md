@@ -52,5 +52,18 @@ Ensures that engineers have access to the same code, code libraries and dependen
 
 ### HOW ARE DOCKERS CONTAINERS CREATED?
 -- They are created from Docker Images.
-
+---
+# .
+---
 ###   DOCKER IMAGES
+-- Read only templates with instructions for creating a Docker container. It defines everything that the container needs. It defines the following:
+- Container code
+- libraries
+- environment variables
+- configuration files
+- anything else the application needs to run in isolation
+
+
+
+
+
