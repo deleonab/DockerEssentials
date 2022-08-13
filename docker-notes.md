@@ -45,7 +45,12 @@ Ensures that engineers have access to the same code, code libraries and dependen
 ---
 ---
 
-##  CONTAINERS VS VIRTUAL MACHINES
+### CONTAINERS VS VIRTUAL MACHINES
 ---
 - File system in Docker containers is shared but not in virtual machines.
 2GB image software on 5 virtual machines is 10GB.  5 Containers can share resources due to the shared file system hence less impact on host machine's available space.
+
+### HOW ARE DOCKERS CONTAINERS CREATED?
+-- They are created from Docker Images.
+
+###   DOCKER IMAGES
