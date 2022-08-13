@@ -1,15 +1,15 @@
-## DOCKER
+### DOCKER
 -- A Docker container is a loosely isolated environment running withing a host machine's kernel allowing us to run application specific code.
 
 
-## KERNEL
+### KERNEL
 -- A piece of software at the core of the operating system and controls intercation between all software and the CPU.
 
-## CPU
+### CPU
 -- Core circuitry that executes all instructions
 -- Docker runs on top of an original machine's kernell making it the HOST MACHINE
 
-## DOCKER ENGINE
+### DOCKER ENGINE
 -- The Docker engine concists of the following
 - The server also called Docker Daemon
 - The API
@@ -20,7 +20,7 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 ![Docker Engine Diagram](./images-notes/docker-engine.JPG)
 
 
-## DOCKER CONTAINER ENVIRONMENT (CONTAINER)
+### DOCKER CONTAINER ENVIRONMENT (CONTAINER)
 -- Loose Isolation - Processes/running instances of one container cannot affect processes of another
 
 -- We can set limits on resource allocation such as memory,CPU . This helps to control amount of the host kernels resources(Memory, CPU) they can consume.
@@ -33,7 +33,7 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 ---
 
 ---
-## WHY USE CONTAINERS?
+### WHY USE CONTAINERS?
 - Portability to multiple operating system environments - Docker ensures that the application can run the same way regardless of the operating system environment it is running on.
 The only requirementis that the host machine has Docker installed.
 
@@ -41,3 +41,8 @@ The only requirementis that the host machine has Docker installed.
 Ensures that engineers have access to the same code, code libraries and dependencies.
 
 - Containers can be used in Development, continuous intergration and deployment environments.
+
+---
+---
+
+###
