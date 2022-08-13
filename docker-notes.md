@@ -38,3 +38,4 @@ The user through the CLI talks to the Daemon who uses the blueprint to construct
 The only requirementis that the host machine has Docker installed.
 
 - Less time setting up the environment for Developers and Engineers. More time can be spent on application specific code that drives value for them and theircompanies.
+Ensures that engineers have access to the same code, code libraries and dependencies.
