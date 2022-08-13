@@ -138,3 +138,9 @@ docker stop foo
 
 docker rm foo
 ```
+
+### WE CAN BECOME MORE EFFICIENT BY COMBINING COMMANDS
+## docker run to create and start
+```
+docker run --name="dele" -it ubuntu bash
+```
