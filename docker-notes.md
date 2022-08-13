@@ -140,7 +140,7 @@ docker rm foo
 ```
 ### To force remove a container
 ```
-docker rm imagename
+docker rm -f imagename
 ```
 
 ### WE CAN BECOME MORE EFFICIENT BY COMBINING COMMANDS
