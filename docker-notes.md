@@ -110,4 +110,8 @@ docker start foo
 ```
 docker attach foo
 ```
+### Now we can access the containers file system  root@0c9fdb1459b2:/# ls
+
+![container file system](./images-notes/container-file-system.JPG)
+
 
