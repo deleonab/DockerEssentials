@@ -101,4 +101,8 @@ docker container ls
 ```
 ![docker conatainer list](./images-notes/docker-container-list.JPG)
 
+### Let's start the container with the foo command.
+```
+docker start foo
+```
 
