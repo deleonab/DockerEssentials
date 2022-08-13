@@ -39,3 +39,5 @@ The only requirementis that the host machine has Docker installed.
 
 - Less time setting up the environment for Developers and Engineers. More time can be spent on application specific code that drives value for them and theircompanies.
 Ensures that engineers have access to the same code, code libraries and dependencies.
+
+- Containers can be used in Development, continuous intergration and deployment environments.
