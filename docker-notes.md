@@ -156,3 +156,14 @@ docker run --name="dele" -it ubuntu bash
 ---
 -- A read only template woth instructions for creating a Docker container
 -- These instructions are defined in a DOCKERFILE
+
+### CREATING YOUR FIRST DOCKER FILE AND IMAGE
+-- TO CREATE A SERVE CONTAINER
+
+--  MAKE A DIRECTORY CALLED DOCKER TO STORE OUR FILES
+```
+mkdir docker
+```
+```
+cd docker
+```
