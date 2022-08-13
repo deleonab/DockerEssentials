@@ -99,6 +99,6 @@ docker container ls -a
 ```
 docker container ls
 ```
-
+![docker conatainer list](./images-notes/docker-container-list.JPG)
 
 
