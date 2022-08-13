@@ -79,4 +79,15 @@ docker search ubuntu
 ![docker search ubuntu](./images-notes/docker-search-ubuntu.JPG)
 
 
+### Create an Ubunti Image
+```
+docker create --name="foo" -it ubuntu bash
+```
+i = interactive
+t  = terminal/tty
+
+![docker create ubuntu](./images-notes/docker-create-ubuntu.JPG)
+
+
+
 
