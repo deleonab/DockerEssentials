@@ -71,5 +71,12 @@ Ensures that engineers have access to the same code, code libraries and dependen
 Go to https://hub.docker.com/explore to see most used docker images
 
 
+### DOCKER ON THE COMMAND LINE
+-- Search for image such as an Ubuntu Image
+```
+docker search ubuntu
+```
+![docker search ubuntu](./images-notes/docker-search-ubuntu.JPG)
+
 
 
