@@ -149,3 +149,10 @@ docker rm -f imagename
 docker run --name="dele" -it ubuntu bash
 ```
 -- docker saves a cache of an image even when removed. This is very helpful as it uses this cache and speeds up the creation of subsequent containers using these images
+
+
+---
+## DOCKER IMAGES IN DEPTH
+---
+-- A read only template woth instructions for creating a Docker container
+-- These instructions are defined in a DOCKERFILE
