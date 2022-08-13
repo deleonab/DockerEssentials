@@ -88,6 +88,17 @@ t  = terminal/tty
 
 ![docker create ubuntu](./images-notes/docker-create-ubuntu.JPG)
 
+### View containers
+#### Non running containers
+
+```
+docker container ls -a
+```
+
+#### View running containers
+```
+docker container ls
+```
 
 
 
