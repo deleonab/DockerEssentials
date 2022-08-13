@@ -118,11 +118,15 @@ root@0c9fdb1459b2:/# ls
 
 ![container file system](./images-notes/container-file-system.JPG)
 
-### Let's install ping program on our container file system. We shall fr=irst update then install iputils-ping
+### Let's install ping program on our container file system. We shall first update then install iputils-ping
 
 ```
 apt-get update
 ```
 ```
 apt-get install iputils-ping
+```
+### Check container logs and last operations by running --  docker logs containername from powershell(outside container CLI)
+```
+docker logs ff
 ```
