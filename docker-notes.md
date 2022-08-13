@@ -128,5 +128,5 @@ apt-get install iputils-ping
 ```
 ### Check container logs and last operations by running --  docker logs containername from powershell(outside container CLI)
 ```
-docker logs ff
+docker logs foo
 ```
