@@ -106,3 +106,8 @@ docker container ls
 docker start foo
 ```
 
+### Now, let's attach to our container
+```
+docker attach foo
+```
+
