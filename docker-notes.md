@@ -60,7 +60,7 @@ Ensures that engineers have access to the same code, code libraries and dependen
 - Container code
 - libraries
 - environment variables
-- configuration files
+- configuration files ( resource allocation, networking, security etc)
 - anything else the application needs to run in isolation
 
 
