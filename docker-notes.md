@@ -130,3 +130,11 @@ apt-get install iputils-ping
 ```
 docker logs foo
 ```
+### REMOVING OUR CONTAINER
+-- we must stop a container before we can remove it
+
+```
+docker stop foo
+
+docker rm foo
+```
