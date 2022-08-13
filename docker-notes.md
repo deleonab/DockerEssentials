@@ -139,6 +139,9 @@ docker stop foo
 docker rm foo
 ```
 ### To force remove a container
+```
+
+```
 
 ### WE CAN BECOME MORE EFFICIENT BY COMBINING COMMANDS
 ## docker run to create and start
