@@ -8,6 +8,6 @@ Works accross multiple containers and persists data on the host disk.
 # DOCKER VOLUME
 ### Create volume
 ```
-docker create <volumename>
+docker volume create <volumename>
 ```
 
