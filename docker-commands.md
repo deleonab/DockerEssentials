@@ -22,37 +22,40 @@ docker container ls
 
 ### Attach to a docker container:
 
-Usage: docker attach <container name/id>
+### Usage:  docker attach <container name/id>
 
-Example: docker attach foo
+```
+ docker attach foo
+```
 
-Remove a container:
+### Remove a container: Usage: docker rm <container name/id>
 
-Usage: docker rm <container name/id>
+```
+docker rm foo
+```
+### Force remove: docker rm foo -f
 
-Example: docker rm foo
+### Run a new container: Usage: docker run <image> <command>
 
-Force remove: docker rm foo -f
+```
+docker run --name=bar -it ubuntu bash
+```
 
-Run a new container:
+### Remove all containers:
 
-Usage: docker run <image> <command>
-
-Example with options: docker run --name=bar -it ubuntu bash
-
-Remove all containers:
-
+```
 docker container ls -aq | xargs docker container rm
+```
+### Execute a command in a running container:
 
-Execute a command in a running container:
-
-Usage: docker exec <container name/id> <command>
+```
+docker exec <container name/id> <command>
 
 Example (interactive, with tty): docker exec -it express bash
+```
+### Docker Images
 
-Docker Images
-
-Remove a docker image:
+### Remove a docker image:
 
 Usage: docker image rmi <image id>
 
