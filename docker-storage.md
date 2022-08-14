@@ -10,4 +10,7 @@ Works accross multiple containers and persists data on the host disk.
 ```
 docker volume create <volumename>
 ```
-
+### List volumes
+```
+docker volume ls
+```
