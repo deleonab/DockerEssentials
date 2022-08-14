@@ -118,18 +118,22 @@ RUN npm install -g serve
 COPY ./display ./display
 ```
 
-Inform that a port should be exposed
+### Inform that a port should be exposed
 
 Usage: EXPOSE <port>
 
-Example: EXPOSE 80
+```
+EXPOSE 80
+```
+### Specify a default command for the container:
 
-Specify a default command for the container:
+### Usage (shell format): CMD <default command>
 
-Usage (shell format): CMD <default command>
+```
+CMD serve ./display
+```
+### Usage (exec format, recommended): CMD [“default command”, “arguments”]
 
-Example: CMD serve ./display
-
-Usage (exec format, recommended): CMD [“default command”, “arguments”]
-
-Example: CMD [“node”, “server.js”]
+```
+CMD [“node”, “server.js”]
+```
