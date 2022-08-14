@@ -220,3 +220,14 @@ docker build . -t dele/express
 ```
 docker run --name=express -p=3002:80 dele/server
 ```
+![hello world in browser](./images-notes/hello-world.JPG)
+
+end of project
+```
+docker stop express
+```
+```
+docker rm express
+```
+### End
+
