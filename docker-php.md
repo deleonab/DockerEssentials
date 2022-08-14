@@ -29,3 +29,5 @@ docker build . -t dele/php
 docker run --name=php -p=3002:80 dele/php
 ```
 ![docker run php](./images-notes/build-php.JPG)
+# container ran successfully
+
