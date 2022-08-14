@@ -57,55 +57,66 @@ Example (interactive, with tty): docker exec -it express bash
 
 ### Remove a docker image:
 
-Usage: docker image rmi <image id>
+```
+ docker image rmi <image id>
 
-Example (only uses first 3 characters of image id): docker rmi 70b
-
-Remove all images:
-
+docker rmi 70b
+```
+### Remove all images:
+```
 docker image ls -aq | xargs docker rmi -f
+```
 
-Search for a docker image on dockerhub:
+### Search for a docker image on dockerhub:
 
-Usage: docker search <image>
+### Usage: docker search <image>
 
-Example: docker search ubuntu
+```
+docker search ubuntu
+```
 
-List docker images:
-
+### List docker images:
+```
 docker image ls
+```
+### Build a Docker image:
 
-Build a Docker image:
+### Usage: docker build <path>
 
-Usage: docker build <path>
+```
+docker build . -t org/serve:0.0.0
+```
 
-Example (also tags and names the build): docker build . -t org/serve:0.0.0
+## Dockerfiles
 
-Dockerfiles
-
-Specify a base image:
+### Specify a base image:
 
 Usage: FROM <base image>
 
-Example: FROM node:latest
+```
+ FROM node:latest
+```
+### Set a working directory for the container:
 
-Set a working directory for the container:
+### Usage: WORKDIR <dir>
 
-Usage: WORKDIR <dir>
+```
+ WORKDIR /usr/src/app
+```
+### Run a command for the container image:
 
-Example: WORKDIR /usr/src/app
+### Usage: RUN command
 
-Run a command for the container image:
+```
+RUN npm install -g serve
+```
+### Copy files into the container:
 
-Usage: RUN command
+### Usage: COPY <local files/directories> <container files/directories>
 
-Command: RUN npm install -g serve
-
-Copy files into the container:
-
-Usage: COPY <local files/directories> <container files/directories>
-
-Example: COPY ./display ./display
+```
+COPY ./display ./display
+```
 
 Inform that a port should be exposed
 
