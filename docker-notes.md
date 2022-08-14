@@ -229,6 +229,12 @@ docker stop express
 ```
 docker rm express
 ```
+
+### Next we create the .dockerignore file for file or folders that we don't want copied into our container package
+```
+touch .dockerignore
+```
+
 ### End 
 ### Node JS Docker Container
 
