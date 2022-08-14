@@ -217,3 +217,6 @@ docker build . -t dele/express
 
 ### The next step is to run our container
 
+```
+docker run --name=express -p=3002:80 dele/server
+```
