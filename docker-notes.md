@@ -158,71 +158,54 @@ docker run --name="dele" -it ubuntu bash
 -- These instructions are defined in a DOCKERFILE
 
 ### CREATING YOUR FIRST DOCKER FILE AND IMAGE
--- TO CREATE A SERVE CONTAINER
+-- CREATE A SIMPLE NODE.JS APPLICATION THAT CONSISTS OF A NODE WEBSERVER WEB PAGE THAT SAYS HELLO WORLD
 
---  MAKE A DIRECTORY CALLED DOCKER TO STORE OUR FILES
-```
-mkdir docker
-```
-```
-cd docker
-```
-### Make a directory for serve in the docker folder
-```
-mkdir serve
-```
-### Navigate to the serve directory
-```
-cd serve
-```
-### Serve is a module that allows us to list a directories content and switch between them interactively in the browser.
-### Lets create the directory display in the serve directory and give it some data
-```
-mkdir display
-```
-### we shall create foo.txt and write data into it
-`
-cat > display/foo.txt
-
-### Let's create a site directory to host an html index page
-```
-cat > display/site/index.html
-<html><b> This is a web page</b></html>
-```
-
-### Next, let's create a Dockerfile in the serve directory
-```
-touch Dockerfile
-```
-```
-docker search node 
-```
-This lists node images we could use for our application
-
-### Let's create a base image
-```
-FROM node:latest
-```
-
-### This gives us access to npm which installs official node modules
-```
-RUN npm install --global serve
-```
-### This installs serve globally (-g) so can be executed anywhere
-### THis installs serve
-### Next we need to copy the contents of the serve/disply directory from host to container using the COPY command
-```
-COPY ./display ./display
-```
-
-### Next' we need to specify the command to execute i.e CMD. In this case, it will be to serve the display directory
-```
-CMD serve ./display
-```
-### The next step is to build the image We shall go back to the command line
-### . means build from root  and -t allows a name tag
+### We create a folder express in our docker directory and create 3 files in the express directory
+- server.js
+- dockerfile
+- package.json
 
 ```
-docker build . -t dele/serve 
+mkdir docker/express
 ```
-![first docker image](./images-notes/first-image.JPG)
+```
+cd express
+```
+```
+touch Dockerfile package.json server.js
+```
+
+### server.js is the entry point
+```
+const express = require('express');
+const app = express();
+HOST = '0.0.0.0';
+const PORT = 80;
+
+app.get('/', (req,res)=>{
+
+res.send('Hello World');
+});
+app.listen(PORT,HOST);
+console.log('Running on http://${HOST}:${PORT}');
+```
+
+### package.json is for the dependencies
+```
+{
+    "dependencies":{
+
+       "express": "^4.16.1" 
+    }
+}
+```
+
+### our dockerfile is as follows:
+
+```
+FROM node
+WORKDIR /docker/express
+COPY ./ ./
+RUN npm install
+CMD ["node","server.js"]
+```
