@@ -209,3 +209,11 @@ COPY ./ ./
 RUN npm install
 CMD ["node","server.js"]
 ```
+### Let's build our docker image
+```
+docker build . -t dele/express
+```
+![first docker build](./images-notes/first-build.JPG)
+
+### The next step is to run our container
+
