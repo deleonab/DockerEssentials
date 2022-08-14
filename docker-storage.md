@@ -5,3 +5,9 @@ Works accross multiple containers and persists data on the host disk.
 - Tmpfs mount - Connects to the container memory and not host memory
 ![Docker container storage](./images-notes/docker-container-storage.JPG)
 
+# DOCKER VOLUME
+### Create volume
+```
+docker create <volumename>
+```
+
