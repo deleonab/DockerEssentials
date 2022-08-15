@@ -16,9 +16,15 @@ docker network ls
 ```
 ![docker default network](./images-notes/docker-default-networks.JPG)
 
-
+### Let's run 2 containers from busybox for testing
 ```
 docker run -itd --name=foo busybox 
 ```
 
 ![run busybox](./images-notes/run-busybox.JPG)
+
+### Run again but give a different name
+```
+docker run -itd --name=bar busybox
+```
+![run busybox2](./images-notes/run-busybox2.JPG)
