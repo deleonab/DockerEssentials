@@ -47,6 +47,15 @@ docker network inspect bridge
 - bar  172.17.0.3/16
 
 
+### Let's see if we can ping bar from foo
+```
+docker attach foo
+```
+### Tis will take us into the foo containers CLI
+```
+ping 172.17.0.3
+```
+![container ping](./images-notes/container-ping.JPG)
 
-
+### This proves that our 2 containers can communicate on the bridge network
 
