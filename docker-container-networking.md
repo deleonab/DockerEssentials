@@ -33,3 +33,17 @@ docker run -itd --name=bar busybox
 docker container ls
 ```
 ![container ls](./images-notes/container-ls.JPG)
+
+### Check the networks on the bridge network
+```
+docker network inspect bridge
+```
+![docker inspect bridge](./images-notes/docker-container-inspect-bridge.JPG)
+
+
+
+
+
+
+
+
