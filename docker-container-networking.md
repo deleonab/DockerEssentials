@@ -28,3 +28,8 @@ docker run -itd --name=foo busybox
 docker run -itd --name=bar busybox
 ```
 ![run busybox2](./images-notes/run-busybox2.JPG)
+
+```
+docker container ls
+```
+![container ls](./images-notes/container-ls.JPG)
