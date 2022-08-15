@@ -9,3 +9,9 @@ Three networks are created for Docker upon installation
 3. Host Network - Containers on this network share the network with and connect directly with the host
 4. User defined private networks - Set up a connection between a handful of containers.
 Also has a embedded DNS Server which translates a container name to a unique IP address.
+Needs network drivers. 
+### List default networks
+```
+docker network ls
+```
+![docker default network](./images-notes/docker-default-networks.JPG)
