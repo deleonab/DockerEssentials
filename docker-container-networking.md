@@ -69,3 +69,5 @@ docker network ls
 ```
 
 ![container ls 2](./images-notes/container-ls2.JPG)
+
+### The private network also uses a bridge network driver
