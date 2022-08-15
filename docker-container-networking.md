@@ -41,7 +41,10 @@ docker network inspect bridge
 ![docker inspect bridge](./images-notes/docker-container-inspect-bridge.JPG)
 
 
+### We will make a note of the container ipV4 addresses
+-- foo  172.17.0.2/16
 
+-- bar  172.17.0.3/16
 
 
 
