@@ -71,3 +71,4 @@ docker network ls
 ![container ls 2](./images-notes/container-ls2.JPG)
 
 ### The private network also uses a bridge network driver
+### This means that the containers in this private network get assigned IP addresses.
