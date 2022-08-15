@@ -6,4 +6,4 @@ Three networks are created for Docker upon installation
 
 2. None Network - No IP address is assigned. Other containers including the default bridge network  will not be able to communicate with it and vice versa.
 
-3. 
+3. Host Network - Containers on this network share the network with and connect directly with the host
