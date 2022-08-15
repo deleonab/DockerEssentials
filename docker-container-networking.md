@@ -15,3 +15,10 @@ Needs network drivers.
 docker network ls
 ```
 ![docker default network](./images-notes/docker-default-networks.JPG)
+
+
+```
+docker run -itd --name=foo busybox 
+```
+
+![run busybox](./images-notes/run-busybox.JPG)
