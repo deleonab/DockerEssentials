@@ -59,3 +59,13 @@ ping 172.17.0.3
 
 ### This proves that our 2 containers can communicate on the bridge network
 
+---
+### LET'S CREATE A PRIVATE NETWORK
+```
+docker network create privatenw
+```
+```
+docker network ls
+```
+
+![container ls 2](./images-notes/container-ls2.JPG)
