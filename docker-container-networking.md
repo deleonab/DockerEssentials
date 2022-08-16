@@ -73,7 +73,11 @@ docker network ls
 ### The private network also uses a bridge network driver
 ### This means that the containers in this private network get assigned IP addresses.
 
-### I will add 2 containers to the private network
+### I will add 2 busybox containers to the private network
 ```
-docker run --network=privatenw -ltd --name=baz busybox
+docker run --network=privatenw -itd --name=olubajo busybox
+```
+### I will give the other container a different name
+```
+docker run --network=privatenw -itd --name=oruenene busybox
 ```
