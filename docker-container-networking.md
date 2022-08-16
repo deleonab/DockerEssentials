@@ -103,6 +103,11 @@ ping 172.18.0.3
 ```
 ping oruenene
 ```
+
+### List all containers, running or not
+```
+docker container ls -aq 
+```
 ### Clean up and remove all containers
 ```
 docker container ls -aq | xargs docker rm -f 
