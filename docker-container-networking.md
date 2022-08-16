@@ -115,4 +115,4 @@ docker container ls -aq | xargs docker rm -f
 ### All containers removed successfully
 
 ## DOCKER COMPOSE
--- A tool for building applications that run on more than one container
+-- A tool for composing and building applications that run on more than one container
