@@ -81,3 +81,9 @@ docker run --network=privatenw -itd --name=olubajo busybox
 ```
 docker run --network=privatenw -itd --name=oruenene busybox
 ```
+### display the private network
+```
+docker inspect privatenw
+```
+![privatenw inspect](./images-notes/privatenw-inspect.JPG)
+
