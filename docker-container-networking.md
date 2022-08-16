@@ -112,3 +112,4 @@ docker container ls -aq
 ```
 docker container ls -aq | xargs docker rm -f 
 ```
+### All containers removed
