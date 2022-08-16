@@ -87,3 +87,19 @@ docker inspect privatenw
 ```
 ![privatenw inspect](./images-notes/privatenw-inspect.JPG)
 
+### Next we shall log into the olubajo container and try to ping the oruenene container
+
+```
+docker attach olubajo
+```
+### Now I will ping oruenene 172.18.0.3
+```
+ping 172.18.0.3
+```
+### We are able to call the name of a container in our network and get its IP address
+
+### A bridge network has an embedded DNS system. 
+### We can ping oruenene or olubajo and it translates to the IP address
+```
+ping oruenene
+```
