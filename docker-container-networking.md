@@ -118,3 +118,7 @@ docker container ls -aq | xargs docker rm -f
 - A tool for composing and building applications that run on more than one container
 
 - Containers in compose are services.  One could be running ruby on rails and the other mysql
+- docker-compose.ml is the configuration definition for our services
+
+## WHY IS DOCKER COMPOSE USEFUL?
+### Start multiple containers with one command.
