@@ -14,3 +14,4 @@ res.json({});
 });
 
 app.listen(PORT, HOST);
+console.log(`Listening on port ${PORT}`);
