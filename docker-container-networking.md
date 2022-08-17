@@ -127,3 +127,4 @@ docker container ls -aq | xargs docker rm -f
 
 - Private network for the compose application
 - Embedded DNS Network
+- We can look up a containers name and match to the IP address.
