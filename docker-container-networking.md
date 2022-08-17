@@ -128,3 +128,4 @@ docker container ls -aq | xargs docker rm -f
 - Private network for the compose application
 - Embedded DNS Network
 - We can look up a containers name and match to the IP address.
+-- This means that containers(services) can connect using the names to other containers.
