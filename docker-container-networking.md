@@ -121,4 +121,9 @@ docker container ls -aq | xargs docker rm -f
 - docker-compose.ml is the configuration definition for our services
 
 ## WHY IS DOCKER COMPOSE USEFUL?
-### Start multiple containers with one command.
+- Start multiple containers with one command.
+- Great documentation. 
+### ###-----###
+
+- Private network for the compose application
+- Embedded DNS Network
