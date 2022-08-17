@@ -12,3 +12,5 @@ res.json({});
     players: ['Victor','Dele','Oruenene','Mia','Bella','Abi']
 
 });
+
+app.listen(PORT, HOST);
