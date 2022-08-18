@@ -168,3 +168,21 @@ cp -r node-php node-php-volumes
 ## VOLUMES ARE USED TO SHARE CONTENT BETWEEN MANY CONTAINERS
 ## They make a live connection between the directory of a host and a container
 -- We shall do this by exposing a volume in our docker-compose.yml file
+
+```
+version: "3"
+
+services: 
+  players:
+    build: ./players
+    ports: 
+      - 5004:80
+  site:
+    build: ./site
+    ports:
+     - 5006:80
+    depends_on:
+     - players
+    volumes:
+     - ./site/src
+```
