@@ -87,3 +87,14 @@ docker-compose up --build --force-recreate
 
 ### Browser output 
 ![browser output](./images-notes/browser-json.JPG)
+
+### create site folder
+### Inside this, create index.php and Dockerfile
+### This will house the php front =end application
+
+``` 
+mkdir site
+```
+```
+touch site/index.php site/Dockerfile
+```
