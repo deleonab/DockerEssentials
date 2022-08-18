@@ -163,5 +163,5 @@ services:
 cd docker
 ```
 ```
-cp node-php node-php-volume
+cp -r node-php node-php-volumes
 ``
