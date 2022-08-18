@@ -166,3 +166,4 @@ cd docker
 cp -r node-php node-php-volumes
 ```
 ## VOLUMES ARE USED TO SHARE CONTENT BETWEEN MANY CONTAINERS
+## They make a live connection between the directory of a host and a container
