@@ -68,7 +68,16 @@ console.log(`Listening on http://${HOST}:${PORT}`);
       }
 }
 ```
-
+### Dockerfile contents
+```
+FROM node
+WORKDIR /node-php/players
+COPY package.json package.json
+RUN npm install 
+COPY . .
+EXPOSE 80
+CMD ["node", "server.js"]
+```
 ### I had a problem where changes to server.js did not render after running docker-compose
 
 ### Solution: I had to force recereation using: 
