@@ -151,7 +151,17 @@ services:
      build: ./site
      ports:
      - 5006:80
-     dependson:
+     depends_on:
      - players
 
 ```
+
+## LETS USE VOLUMES TO DYNAMICALLY UPDATE OUR CONTAINERS
+---
+-- First, we'll copy the node-php folder and contents to node-php-volume
+```
+cd docker
+```
+```
+cp node-php node-php-volume
+``
