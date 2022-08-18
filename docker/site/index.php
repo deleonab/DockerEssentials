@@ -4,7 +4,18 @@
 </head>
 <body>
     <ul>
-        <li></li>
+            <?php       
+            
+            $json = file_get_contents('http://players');
+            $players = json_decode($json)->players;
+            
+            foreach($players in $player){
+               echo "<li> $player </li>";
+
+            }
+            
+            ?>
+        
         
     </ul>  
 </body>
