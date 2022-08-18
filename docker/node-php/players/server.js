@@ -8,10 +8,10 @@ const PORT = 80;
 
 app.get('/', (req,res)=>{
 
-res.send({
+res.json({
 
-    players:['Victor','Dele','Oruenene','Mia','Bella','Abi']
-});
+    "players": ['Victor','Dele','Oruenene','Mia','Bella','Abi']
+}).then(json => console.log(json));
    
 
 });
