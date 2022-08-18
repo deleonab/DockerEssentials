@@ -3,13 +3,14 @@
     <title>Two container application</title>
 </head>
 <body>
+    <h1>Team:</h1>
     <ul>
             <?php       
             
             $json = file_get_contents('http://players');
             $players = json_decode($json)->players;
             
-            foreach($players in $player){
+            foreach($players as $player){
                echo "<li> $player </li>";
 
             }

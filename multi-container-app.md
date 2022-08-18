@@ -106,13 +106,14 @@ touch site/index.php site/Dockerfile
     <title>Two container application</title>
 </head>
 <body>
+    <h1>Team:</h1>
     <ul>
             <?php       
             
             $json = file_get_contents('http://players');
             $players = json_decode($json)->players;
             
-            foreach($players in $player){
+            foreach($players as $player){
                echo "<li> $player </li>";
 
             }
@@ -137,4 +138,20 @@ CMD["PHP", "-S","0.0.0.0:80"];
 ```
 
 ### Next step is to update the Docker-compose.yml file
+```
+version: "3"
 
+services: 
+  players:
+    build: ./players
+    ports: 
+      - 5004:80
+
+    site:
+     build: ./site
+     ports:
+     - 5006:80
+     dependson:
+     - players
+
+```
