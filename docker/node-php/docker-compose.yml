@@ -3,3 +3,5 @@ version: "3"
 services: 
   players:
     build: ./players
+    ports: 
+      - 5004:80
