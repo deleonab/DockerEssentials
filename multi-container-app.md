@@ -34,3 +34,10 @@ services:
    players:
      build: ./players
 ```
+### I had a problem where changes to server.js did not render after running docker-compose
+
+### Solution: I had to force recereation using: 
+```
+docker-compose up --build --force-recreate
+```
+
