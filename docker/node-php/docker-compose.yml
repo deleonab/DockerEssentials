@@ -11,7 +11,4 @@ services:
      - 5006:80
     depends_on:
      - players
-
-    volumes:
-     - ./site/src
-     
+    

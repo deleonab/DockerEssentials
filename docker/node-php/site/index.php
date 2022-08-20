@@ -3,7 +3,7 @@
     <title>Two container application</title>
 </head>
 <body>
-    <h1>Team:</h1>
+    <h1>Team Members:</h1>
     <ul>
             <?php       
             
